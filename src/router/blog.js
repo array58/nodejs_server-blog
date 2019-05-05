@@ -8,7 +8,7 @@ const {
 const {SuccessModel,ErrorModel} = require('../model/resModel')
 const handleBlogRouter = (req,res)=>{
     const method = req.method;
-    let a = "123";
+    
    
     if('GET'===method && req.path === '/api/blog/list'){
         const author = req.query.author;
